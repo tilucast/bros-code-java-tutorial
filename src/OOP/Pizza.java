@@ -36,4 +36,9 @@ public class Pizza {
         this.sauce = "Pepper";
         this.topping = "Mushrooms";
     }
+
+    //method overriding
+    public String toString(){
+        return String.format("%s, %s, %s, %s", this.bread, this.cheese, this.sauce, this.topping);
+    }
 }

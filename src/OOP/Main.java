@@ -22,9 +22,30 @@ public class Main {
 
         // ---------------
 
-        Pizza pizza = new Pizza("Thick crust");
+//        Pizza pizza = new Pizza("Thick crust");
+//
+//        System.out.println("Ingredients of your pizza: ");
+//        System.out.println(pizza);
 
-        System.out.println("Ingredients of your pizza: ");
-        System.out.printf("%s, %s, %s, %s", pizza.bread, pizza.cheese, pizza.topping, pizza.sauce);
+        // ---------------
+
+//        int[] numbers = new int[3];
+//        char[] characters = new char[4];
+//        String[] strings = new String[8];
+//
+//        Pizza[] pizzas = {new Pizza("Thick Crust"), new Pizza("Slim crust"), new Pizza("Medium crust")};
+//
+//        Pizza[] pizzas = new Pizza[3];
+//        pizzas[0] = new Pizza("Thick crust");
+//        pizzas[1] = new Pizza("Slim crust");
+//        pizzas[2] = new Pizza("Medium crust");
+//
+//        for (int i = 0; i < pizzas.length; i++) {
+//            System.out.println(pizzas[i]);
+//        }
+
+        // -------------
+
+
     }
 }
