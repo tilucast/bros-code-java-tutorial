@@ -76,7 +76,14 @@ public class Main {
 
         // -----------
 
-        Hero hero1 = new Hero("King", "CHIN", "King", 30);
-        System.out.println(hero1);
+//        Hero hero1 = new Hero("King", "CHIN", "King", 30);
+//        System.out.println(hero1);
+
+        // -----------
+
+        Car car = new Car();
+        Bycicle bike = new Bycicle();
+        car.describe();
+        bike.describe();
     }
 }

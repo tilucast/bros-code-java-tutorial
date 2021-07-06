@@ -14,4 +14,20 @@ public class Car extends Vehicle {
     void brake(){
         System.out.println("You have stopped the car.");
     }
+
+    @Override
+    void describe() {
+        System.out.println(this);
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
