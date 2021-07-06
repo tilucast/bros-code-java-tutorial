@@ -81,9 +81,13 @@ public class Main {
 
         // -----------
 
-        Car car = new Car();
-        Bycicle bike = new Bycicle();
-        car.describe();
-        bike.describe();
+//        Car car = new Car();
+//        Bycicle bike = new Bycicle();
+//        car.describe();
+//        bike.describe();
+
+        // ------------
+
+
     }
 }
