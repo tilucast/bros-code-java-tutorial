@@ -46,6 +46,16 @@ public class Main {
 
         // -------------
 
+//        Garage garage = new Garage();
+//        Car car = new Car();
+//        Car car2 = new Car();
+//
+//        garage.park(car);
+//        garage.park(car2);
 
+        Friend friend1 = new Friend("Patrick");
+        Friend friend2 = new Friend("Patrick");
+        Friend friend3 = new Friend("Patrick");
+        Friend.displayFriends();
     }
 }

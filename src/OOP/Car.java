@@ -2,7 +2,7 @@ package OOP;
 
 public class Car {
     String make = "Chevrolet";
-    String model = "Covert";
+    String model = "Corvert";
     int year = 2020;
     String color = "red";
     double price = 20000;
