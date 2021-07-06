@@ -53,9 +53,30 @@ public class Main {
 //        garage.park(car);
 //        garage.park(car2);
 
-        Friend friend1 = new Friend("Patrick");
-        Friend friend2 = new Friend("Patrick");
-        Friend friend3 = new Friend("Patrick");
-        Friend.displayFriends();
+//        Friend friend1 = new Friend("Patrick");
+//        Friend friend2 = new Friend("Patrick");
+//        Friend friend3 = new Friend("Patrick");
+//        Friend.displayFriends();
+
+        // -----------
+
+//        Car car = new Car();
+//        Bycicle byke = new Bycicle();
+//        car.go();
+//        byke.stop();
+//
+//        System.out.println(byke.wheels);
+
+        // -----------
+
+//        Animal animal = new Animal();
+//        Dog dog = new Dog();
+//        dog.speak();
+//        animal.speak();
+
+        // -----------
+
+        Hero hero1 = new Hero("King", "CHIN", "King", 30);
+        System.out.println(hero1);
     }
 }

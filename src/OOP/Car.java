@@ -1,6 +1,6 @@
 package OOP;
 
-public class Car {
+public class Car extends Vehicle {
     String make = "Chevrolet";
     String model = "Corvert";
     int year = 2020;
