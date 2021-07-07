@@ -12,6 +12,10 @@ public class PC {
         this.company = company;
     }
 
+    PC(PC pc){
+        this.copy(pc);
+    }
+
     public String getMotherboard(){
         return motherboard;
     }
@@ -34,5 +38,11 @@ public class PC {
 
     public void setCompany(String company){
         this.company = company;
+    }
+
+    public void copy(PC pc){
+        this.setCompany(pc.getCompany());
+        this.setMotherboard(pc.getMotherboard());
+        this.setProcessor(pc.getProcessor());
     }
 }
