@@ -95,15 +95,19 @@ public class Main {
 
         // --------------
 
-        PC pc1 = new PC("2090 ICY", "Intel core i9", "Pixau");
-        PC pc2 = new PC(pc1);
+//        PC pc1 = new PC("2090 ICY", "Intel core i9", "Pixau");
+//        PC pc2 = new PC(pc1);
         //PC pc2 = new PC("2080 FYRE", "Inte core i7", "Kabum");
 
         //pc2.copy(pc1);
 
-        System.out.println(pc1);
-        System.out.println(pc2);
-        System.out.println(pc1.getCompany());
-        System.out.println(pc2.getCompany());
+//        System.out.println(pc1);
+//        System.out.println(pc2);
+//        System.out.println(pc1.getCompany());
+//        System.out.println(pc2.getCompany());
+
+        // -----------------
+
+
     }
 }
