@@ -88,6 +88,9 @@ public class Main {
 
         // ------------
 
-
+        PC pc1 = new PC("2090 ICY", "Intel core 19", "Pixau");
+        System.out.println(pc1.getCompany());
+        pc1.setCompany("Penianos");
+        System.out.println(pc1.getCompany());
     }
 }
